@@ -1,0 +1,18 @@
+.cabecalho{
+    display: flex;
+
+    &__logo{
+        display: flex;
+    }
+    &__titulo{
+        font-size: 16px;
+        &__span{
+            color: #2A7AE4;
+        }
+    }
+    &__login{
+        color: #2A7AE4;
+        background-color: transparent;
+        border: 1px solid #2A7AE4;
+    }
+}
